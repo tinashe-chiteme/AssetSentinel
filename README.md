@@ -20,7 +20,7 @@ This project is intended as an engineering prototype rather than a commercial se
 
 ## Features
 ESP32-based embedded platform
-![main](hardware/ESP_Development.jpeg)
+![main](hardware/ESP32_Development.jpeg)
 MPU6050 vibration sensing
 Dual-threshold disturbance detection
 OLED local status display
