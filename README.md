@@ -81,7 +81,9 @@ System robustness
 Cloud integration
 Scalability
 
-The project remains under active development.
+AssetSentinel is an engineering proof-of-concept exploring vibration-based infrastructure disturbance detection using embedded systems and IoT technologies.
+
+The project is under active development and is intended for research, learning, and prototyping purposes. It is not a commercial product or a field-validated security solution.
 
 ## Lessons Learned
 
