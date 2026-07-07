@@ -31,24 +31,7 @@ Modular firmware architecture
 Designed as a learning and research prototype
 ## System Architecture
 
-Physical Disturbance
-          │
-          ▼
-     MPU6050 Sensor
-          │
-          ▼
-        ESP32
-          │
- ┌────────┴────────┐
- │                 │
- ▼                 ▼
-Local Alarm     MQTT Broker
-                     │
-                     ▼
-                Node-RED
-                     │
-                     ▼
-              Dashboard & Alerts
+Physical Disturbance -> MPU6050 Sensor -> Local Alarm -> MQTT Broker -> Node-RED -> Dashboard & Alerts
 
 ## Hardware
 
