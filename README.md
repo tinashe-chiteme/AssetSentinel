@@ -1,5 +1,5 @@
 # AssetSentinel
-![hardware](Prototype_V1.jpeg)
+![main](hardware/Prototype_V1.jpeg)
 An ESP32-based prototype exploring low-cost vibration monitoring for infrastructure disturbance detection.
 
 ## Overview
@@ -20,15 +20,15 @@ This project is intended as an engineering prototype rather than a commercial se
 
 ## Features
 ESP32-based embedded platform
-![hardware](ESP_Development.jpeg)
+![main](hardware/ESP_Development.jpeg)
 MPU6050 vibration sensing
 Dual-threshold disturbance detection
 OLED local status display
 Audible alarm output
-![hardware](Protoboard_Development.jpeg)
+![main](hardware/Protoboard_Development.jpeg)
 MQTT communication
 Node-RED dashboard
-![dashboard](Dashboard.png)
+![main](dashboard/Dashboard.png)
 Remote event monitoring
 Modular firmware architecture
 Designed as a learning and research prototype
