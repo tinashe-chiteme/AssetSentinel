@@ -30,6 +30,7 @@ Remote event monitoring
 Modular firmware architecture
 Designed as a learning and research prototype
 ## System Architecture
+
 Physical Disturbance
           │
           ▼
@@ -48,6 +49,7 @@ Local Alarm     MQTT Broker
                      │
                      ▼
               Dashboard & Alerts
+
 ## Hardware
 
 The prototype currently consists of:
