@@ -19,19 +19,19 @@ AssetSentinel investigates whether a compact, modular sensing device could contr
 This project is intended as an engineering prototype rather than a commercial security product.
 
 ## Features
-ESP32-based embedded platform
+* ESP32-based embedded platform
 ![main](hardware/ESP32_Development.jpeg)
-MPU6050 vibration sensing
-Dual-threshold disturbance detection
-OLED local status display
-Audible alarm output
+* MPU6050 vibration sensing
+* Dual-threshold disturbance detection
+* OLED local status display
+* Audible alarm output
 ![main](hardware/Protoboard_Development.jpeg)
-MQTT communication
-Node-RED dashboard
+* MQTT communication
+* Node-RED dashboard
 ![main](dashboard/Dashboard.png)
-Remote event monitoring
-Modular firmware architecture
-Designed as a learning and research prototype
+* Remote event monitoring
+* Modular firmware architecture
+* Designed as a learning and research prototype
 
 ## System Architecture
 
@@ -41,32 +41,32 @@ Physical Disturbance -> MPU6050 Sensor -> Local Alarm -> MQTT Broker -> Node-RED
 
 The prototype currently consists of:
 
-ESP32 Development Board
-MPU6050 Accelerometer/Gyroscope
-SSD1306 OLED Display
-Relay Module
-Active Buzzer
-Push Button
-Breadboard Prototype
-Supporting wiring and power supply
+* ESP32 Development Board
+* MPU6050 Accelerometer/Gyroscope
+* SSD1306 OLED Display
+* Relay Module
+* Active Buzzer
+* Push Button
+* Breadboard Prototype
+* Supporting wiring and power supply
 
 See the hardware/ folder for further details.
 
 ## Software Stack
-Arduino IDE
-C++
-ESP32 Arduino Framework
-MQTT
-HiveMQ
-Node-RED
-GitHub
-Demonstration
+* Arduino IDE
+* C++
+* ESP32 Arduino Framework
+* MQTT
+* HiveMQ
+* Node-RED
+* GitHub
+* Demonstration
 
 This repository includes:
 
-Prototype photographs
-Dashboard screenshots
-Demonstration videos
+* Prototype photographs
+* Dashboard screenshots
+* Demonstration videos
 
 These media illustrate the prototype's current capabilities and development progress.
 
@@ -74,12 +74,12 @@ These media illustrate the prototype's current capabilities and development prog
 
 Current development focuses on improving:
 
-Detection reliability
-Firmware architecture
-Calibration
-System robustness
-Cloud integration
-Scalability
+* Detection reliability
+* Firmware architecture
+* Calibration
+* System robustness
+* Cloud integration
+* Scalability
 
 AssetSentinel is an engineering proof-of-concept exploring vibration-based infrastructure disturbance detection using embedded systems and IoT technologies.
 
@@ -91,20 +91,20 @@ Developing AssetSentinel has involved much more than writing firmware.
 
 Key learning areas have included:
 
-Embedded systems integration
-Sensor calibration
-Modular firmware design
-MQTT communication
-Dashboard development
-Engineering documentation
-Iterative prototyping
-Communicating technical work to both engineers and non-technical audiences
+* Embedded systems integration
+* Sensor calibration
+* Modular firmware design
+* MQTT communication
+* Dashboard development
+* Engineering documentation
+* Iterative prototyping
+* Communicating technical work to both engineers and non-technical audiences
 ## Repository Structure
-media/
-hardware/
-dashboard/
-firmware/
-Disclaimer
+* media/
+* hardware/
+* dashboard/
+* firmware/
+
 
 AssetSentinel is an educational engineering prototype developed to explore embedded sensing concepts.
 
