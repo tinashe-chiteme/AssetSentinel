@@ -1,0 +1,71 @@
+# ===========================
+# Arduino IDE / PlatformIO
+# ===========================
+
+build/
+.pio/
+.vscode/
+*.elf
+*.bin
+*.hex
+*.map
+
+# ===========================
+# Secrets & Credentials
+# ===========================
+
+secrets.h
+config.h
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+
+# ===========================
+# Cloud / MQTT / API
+# ===========================
+
+*credentials*
+*secret*
+*token*
+
+# ===========================
+# Operating System Files
+# ===========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Temporary Files
+# ===========================
+
+*.tmp
+*.bak
+*.log
+*.swp
+*.swo
+
+# ===========================
+# Python (for later use)
+# ===========================
+
+__pycache__/
+*.py[cod]
+
+# ===========================
+# Node.js (if dashboard grows)
+# ===========================
+
+node_modules/
+
+# ===========================
+# Archives
+# ===========================
+
+*.zip
+*.7z
+*.rar
