@@ -67,7 +67,7 @@ This repository includes:
 Prototype photographs
 Dashboard screenshots
 Demonstration videos
-To see the demonstration video, click here: ![media](Project demo (compressed).mp4) 
+
 These media illustrate the prototype's current capabilities and development progress.
 
 ## Current Status
